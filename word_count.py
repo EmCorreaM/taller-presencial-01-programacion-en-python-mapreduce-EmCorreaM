@@ -54,6 +54,7 @@ def mapper(sequence):
             word = word.lower()
             new_secuence.append((word, 1))
     return new_secuence
+
 #
 # Escriba la función shuffle_and_sort que recibe la lista de tuplas entregada
 # por el mapper, y retorna una lista con el mismo contenido ordenado por la
